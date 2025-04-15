@@ -62,15 +62,16 @@
                 </div>
                 <div class = "actions">
                     <i class='bx bxs-log-out' style='color:#ffffff'  ></i>
-                    <a href=""><h3>Deconnexion</h3></a>
+                    <a href=""><h3>Quitter</h3></a>
                 </div>
               
             </section>
-
             <?php $content ?? '' ?>
-         
         </main>
 
            
     </body>
     </html>
+
+
+
