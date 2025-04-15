@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #93441A;
+    color: white;
+    padding: 40px 25px 0px 25px;
+}
+
+header div {
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+}
+header .bxs-user-circle{
+    background-color: white;
+    height: 100px;
+    font-size: 60px;
+    background-color: #93441A;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    height:787px;
+}
+
+main section{
+    width: 20%;
+    background-color: #93441A;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+a{
+    text-decoration: none;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.actions h3{
+    font-size: 22px;
+    color: white;
+
+
+}
+.action{
+    display: flex;
+    flex-direction: column;
+}
+
+.bx{
+    font-size: 30px;
+}
+
+.action_menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.action_menu h3{
+    color: white;
+    font-size: 22px ;
+
+}
+
+.action_sous_menu p{
+    color: white;
+    font-size: 20px;
+   
+}
+.action_sous_menu{
+
+    margin-left: 50px;
+    gap: 70px;
+    height: 50px;
+}
+
+

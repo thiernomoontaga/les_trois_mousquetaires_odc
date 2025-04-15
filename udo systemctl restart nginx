@@ -1,0 +1,278 @@
+systemctl status nginx php8.3-fpm
+sy
+sudo su
+ls
+tree
+code .
+git branch thierno
+cd les_trois_mousquetaires_odc/
+cd mesProjetsSonatel/
+cd Documents/
+echo "# les_trois_mousquetaires_odc" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:thiernomoontaga/les_trois_mousquetaires_odc.git
+git push -u origin main
+git config --global --add safe.directory /home/thierno/Documents/mesProjetsSonatel/les_trois_mousquetaires_odc
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:thiernomoontaga/les_trois_mousquetaires_odc.git
+git push -u origin main
+sudo  touch README.md
+touch REAME.md
+sudo git clone git@github.com:thiernomoontaga/les_trois_mousquetaires_odc.git
+git clone git@github.com:thiernomoontaga/les_trois_mousquetaires_odc.git
+git clone git@github.com:thiernomoontaga/EukhLoubi.git
+sudo nginx -t && sudo systemctl reload nginx;sudo systemctl restart nginx
+curl -I http://segnane.thierno.sa.edu.sn:2017
+ping segnane.thierno.sa.edu.sn
+sudo nginx -t
+sudo systemctl restart nginx
+sudo systemctl restart php8.3-fpm
+sudo chown -R thierno:www-data /home/thierno/Documents/mesProjetsSonatel/phpWeb
+sudo chmod -R 777 /home/thierno/Documents/mesProjetsSonatel/phpWeb
+sudo chmod g+s /home/thierno/Documents/mesProjetsSonatel/phpWeb
+echo "Hello World" > /home/thierno/Documents/mesProjetsSonatel/phpWeb/index.html
+ls -la /home/thierno/Documents/mesProjetsSonatel/phpWeb/
+sudo tail -f /var/log/nginx/error.log
+sudo systemctl reload nginx
+sudo systemctl restart nginx
+sudo nginx -t
+sudo chown -R thierno:www-data /home/thierno/Documents/mesProjetsSonatel/phpWeb
+sudo chmod -R 777 /home/thierno/Documents/mesProjetsSonatel/phpWeb
+sudo nginx -t && sudo systemctl restart nginx
+pwd
+phpWeb/
+cd /home/thierno/Documents/mesProjetsSonatel/
+sudo chmod -R 777  mesProjetsSonatel/
+sudo chmod -R 777  mesProjetsSonatel/phpWeb/
+sudo chmod 777 -R mesProjetsSonatel/phpWeb/
+# Réinitialisation des permissions
+sudo chmod 755 /home/thierno /home/thierno/Documents /home/thierno/Documents/mesProjetsSonatel
+sudo chown -R www-data:www-data /home/thierno/Documents/mesProjetsSonatel/phpWeb
+
+# Vérification finale
+sudo -u www-data stat /home/thierno/Documents/mesProjetsSonatel/phpWeb/index.php
+
+# Redémarrage
+sudo systemctl restart nginx php8.3-fpm
+namei -l /home/thierno/Documents/mesProjetsSonatel/phpWeb
+sudo ufw status
+sudo tail -f /var/log/nginx/error.log /var/log/php8.3-fpm.log
+readlink -f /home/thierno/Documents/mesProjetsSonatel/phpWeb
+# Vérification du bon fonctionnement
+curl -v http://127.0.0.1:2017/info.php
+# Test HTML
+curl -I http://segnane.thierno.sa.edu.sn:2017/index.html
+
+# Test PHP
+curl -I http://segnane.thierno.sa.edu.sn:2017/index.php
+curl -I http://segnane.thierno.sa.edu.sn:2017/info.php
+sudo systemctl restart php8.3-fpm
+sudo systemctl status php8.3-fpm
+sudo chown -R www-data:www-data /home/thierno/Documents/mesProjetsSonatel/phpWeb
+sudo find /home/thierno/Documents/mesProjetsSonatel/phpWeb -type d -exec chmod 755 {} \;
+sudo find /home/thierno/Documents/mesProjetsSonatel/phpWeb -type f -exec chmod 644 {} \;
+sudo chown -R www-data:www-data /home/thierno/Documents/mesProjetsSonatel/phpWeb
+sudo chmod -R 777 /home/thierno/Documents/mesProjetsSonatel/phpWeb
+echo "<?php phpinfo(); ?>" | sudo tee /home/thierno/Documents/mesProjetsSonatel/phpWeb/index.php
+echo "Test nginx" | sudo tee /home/thierno/Documents/mesProjetsSonatel/phpWeb/index.html
+echo "Test nginx" | sudo tee /home/thierno/Documents/mesProjetsSonatel/phpWeb/index.php
+sudo nano /etc/hosts
+echo "<?php phpinfo(); ?>" > /home/thierno/Documents/mesProjetsSonatel/phpWeb/index.php
+curl -I http://segnane.thierno.sa.edu.sn:2017/index.php
+ls -la /home/thierno/Documents/mesProjetsSonatel/phpWeb/info.php
+echo "<?php phpinfo(); ?>" > /home/thierno/Documents/mesProjetsSonatel/phpWeb/info.php
+curl -I http://segnane.thierno.sa.edu.sn:2017/info.php
+sudo systemctl restart php8.3-fpm
+ls -la /run/php/php8.3-fpm.sock
+cd phpWeb/
+ls /home/thierno/Documents/mesProjetsSonatel/phpWeb
+curl -I http://segnane.thierno.sa.edu.sn
+ping www.segnane.thierno.sa.edu.sn
+sudo chmod -R 777 phpWeb/
+sudo systemctl status php8.3-fpm
+sudo lsof -i :2017
+sudo iptables -L -n | grep 2017
+sudo ufw status
+sudo ufw allow 2017/tcp
+ls -la /etc/nginx/sites-enabled/
+sudo ss -tulnp | grep nginx
+sudo rm dates.conf
+sudo rm generator_password.conf
+sudo rm annuaire.conf
+sudo chmod +x /home/thierno/Documents/mesProjetsSonatel/phpWeb
+sudo chmod 755 -R /home/thierno/Documents/mesProjetsSonatel/phpWeb
+sudo chown -R www-data:www-data /home/thierno/Documents/mesProjetsSonatel/phpWeb/
+sudo namei -l /home/thierno/Documents/mesProjetsSonatel/phpWeb
+sudo ln -s /etc/nginx/sites-available/segnane.thierno.sa.edu.sn /etc/nginx/sites-enabled/
+sudo chown -R www-data:www-data /etc/nginx/sites-enabled/
+sudo chmod -R 755 /etc/nginx/sites-enabled/
+sudo rm /etc/nginx/sites-enabled/diallo.abdourahmane.sa.sn.conf
+sudo mv diallo.abdourahmane.sa.sn.conf segnane.thierno.sa.edu.sn
+sudo cp -R ./nginx/ /etc/
+sudo mv -R ./nginx/ /etc/
+sudo mv -r ./nginx/ /etc/
+sudo mv nginx/ /etc/
+sudo apt-get install nginx
+~
+sudo apt-get autoremove nginx --purge
+sudo nano /etc/nginx/sites-available/segnane.thierno.sa.edu.sn
+# Confirmez le chemin exact utilisé par Nginx
+sudo grep -A5 "root" /etc/nginx/sites-available/segnane.thierno.sa.edu.sn
+
+# Vérifiez physiquement le fichier
+ls -la /home/thierno/Documents/mesProjetsSonatel/phpWeb/annuaire-telephone/public/index.html
+curl -v http://localhost:2017/
+# Confirmez le chemin exact dans la config Nginx
+sudo grep -A5 "root" /etc/nginx/sites-available/segnane.thierno.sa.edu.sn
+
+# Vérifiez que le fichier existe bien à l'emplacement configuré
+sudo ls -la $(sudo grep "root" /etc/nginx/sites-available/segnane.thierno.sa.edu.sn | awk '{print $2}' | tr -d ';')/index.html
+curl -v http://localhost:2017/index.html
+sudo grep "root" /etc/nginx/sites-available/segnane.thierno.sa.edu.sn
+echo "Test réussi" | sudo tee /home/thierno/Documents/mesProjetsSonatel/phpWeb/annuaire-telephone/public/index.html
+sudo chown www-data:www-data /home/thierno/Documents/mesProjetsSonatel/phpWeb/annuaire-telephone/public/index.html
+ls -la /home/thierno/Documents/mesProjetsSonatel/phpWeb/annuaire-telephone/index.html
+sudo chown -R www-data:www-data /home/thierno/Documents/mesProjetsSonatel/phpWeb/annuaire-telephone
+sudo chmod -R 755 /home/thierno/Documents/mesProjetsSonatel/phpWeb/annuaire-telephone
+sudo ls -la /home/thierno/Documents/mesProjetsSonatel/phpWeb/annuaire-telephone/
+echo "Test réussi" | sudo tee /home/thierno/Documents/mesProjetsSonatel/phpWeb/annuaire-telephone/index.html
+ls -la /home/thierno/Documents/mesProjetsSonatel/phpWeb/annuaire-telephone/
+namei -l /home/thierno/Documents/mesProjetsSonatel/phpWeb/annuaire-telephone
+sudo rm -f /etc/nginx/sites-enabled/*
+sudo ln -s /etc/nginx/sites-available/segnane.thierno.sa.edu.sn /etc/nginx/sites-enabled/
+sudo grep -r "segnane.thierno.sa.edu.sn" /etc/nginx/
+ls -l /etc/nginx/sites-enabled/ | grep segnane
+sudo rm -f /etc/nginx/sites-enabled/segnane.thierno.sa.edu.sn
+sudo rm -f /etc/nginx/sites-enabled/segnane
+sudo   mv default default_backup
+mv default default_backup
+sites-available/
+cd ..
+sudo ln -sf /etc/nginx/sites-available/segnane.thierno.sa.edu.sn /etc/nginx/sites-enabled/
+sudo ln -sf /etc/nginx/sites-available/segnane.thierno.sa.edu.sn /etc/nginx/sites-enabled/default
+sudo ln -sf /etc/nginx/sites-available/segnane /etc/nginx/sites-enabled/
+sudo grep -r "listen 2017" /etc/nginx/
+sudo ss -tulnp | grep 2017
+sudo chmod 755 -R /home/thierno/Documents/mesProjetsSonatel/phpWeb/annuaire-telephone
+sudo chmod 755 -R /home/tinkin/odc/backend/web
+                 sudo chown -R www-data:www-data /home/thierno/Documents/mesProjetsSonatel/phpWeb/annuaire-telephone
+sudo nano annuaire-telephone.conf
+touch annuaire-telephone.conf
+sudo nano security.conf
+sudo touch  security.conf
+sudo security.conf
+touch security.conf
+cd locations/
+sudo mkdir locations
+mkdir locations
+cd nginx/conf.d/
+cd ng
+cd conf.d
+clear
+clea
+sudoedit
+sudo apt-get autoremove code --purge
+sudo apt apt autoremove code --purge
+sudo apt apt-get autoremove code --purge
+df
+df -h
+exit
+chmod +r main.c  # Si nécessaire
+ls -l main.c  # Doit afficher "-rw-r--r--"
+cd source
+cd learnTech/
+gcc main.c model.c view.c controller.c -o main -I../header
+la
+chmod 777 ProjetC
+chmod 777 PojectC
+cd ProjetC
+cd Downloads/
+mkdir bin
+mkdir
+touch controller.h
+touch contant.c
+touch model.h
+touch view.h
+cd header
+touch view..c
+touch model.c
+touch controller.c
+touch main.c
+mkdir source
+./prog
+gcc main.c -o prog
+gcc main.c -o main ; ./main
+cd source/
+fis
+./main
+gcc main.c -o main
+cd projetC
+cd projetc
+gcc source/main.c source/model.c source/view.c source/controller.c -o main -header
+gcc source/main.c source/model.c source/view.c source/controller.c -o main -Iheader
+history
+cd main.c
+chmod 777 main.c
+./
+cd Projet
+cd Down
+cleaar
+cleazr
+sudo sun
+./pointeur
+gcc pointeur.c -o pointeur
+cleasr
+mv conroller controller
+cd gestionDecoursEnligne/
+cd sonatelacademy-main
+cleaer
+cd sonatelacademy-main(2)
+cd down
+gcc main.c -o thier
+git clone git@github.com:thiernomoontaga/sonatelacademy.git
+git pull
+Ce projet vise à renforcer les compétences en :
+- Sauvegarde des données dans des fichiers binaires
+- Génération et impression des certifications
+- Système de quiz pour certification
+- Répartition des revenus :
+- Gestion des crédits
+- Achat de cours par les étudiants
+- Planification des sessions de formation
+- Attribution des cours aux étudiants
+- Création et gestion des cours par les professeurs
+- Gestion des utilisateurs (étudiants et professeurs)
+- Création de certifications
+- Consultation du solde
+- Création de cours
+- Inscription / Connexion
+- Imprimer ses certifications
+- Voir ses certifications
+- Passer la certification
+- Inscription à un cours
+- Achat de crédits
+git init
+git status
+git --version
+git
+apt-get install git
+./thier
+gcc animaux.c -o thier
+gcc animaux.c thier -o
+cd Documents
+gcc ndogou.c -o nd ; ./nd
+./diiference
+gcc diiference.c -o difference
+gcc difference.c -o difference
+gcc diiference.c -o dif ; ./dif
+/usr/bin/env /bin/sh /tmp/Microsoft-MIEngine-Cmd-w1g4wdwf.vtl
+gcc main.c
+cd SecondProject/
+sudo apt-get update
+sudo apt-get install
+sudo s
+google-chrome-stable
