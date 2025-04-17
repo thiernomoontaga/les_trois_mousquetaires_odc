@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ges-apprenants login</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="login.css">
 </head>
-<body class = "body_form">
+<body>
     <div class="conteneur">
-        <img src="assets/images/logoApp.png" alt="logo site">
+        <img src="../logoApp.png" alt="logo site">
         <div class="bienvenu">
             <div class = "bienvenu-1">Bienvenu sur</div>
             <div class = "ecole">Ecole du code Sonatel Academy</div>
         </div>
         <div class="se-connecter">
-            Se connecter
+            Se Connecter
         </div>
         <div class="formulaire">
             <form action="">
@@ -26,7 +26,7 @@
                     <label for="login">Mot de Passe</label>
                     <input type="text" placeholder = "Mot de Passe">
                 </div>
-                <a href="#">Mot de passe oublié ?</a>
+                <a href="#">Mot de passe oublié</a>
             </form>
         </div>
 
@@ -36,4 +36,3 @@
     </div>
 </body>
 </html>
-

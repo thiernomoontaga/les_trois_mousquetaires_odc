@@ -1,6 +1,6 @@
 :root{
     --couleur-blanc : #ffffff;
-    --couleur-orange : #ff7700;
+    --couleur-orange : #ff7900;
     --couleur-texte : #030303;
     --couleur-texte-2 : #3d3939;
     --couleur-texte-3 : #cccccc;
@@ -17,7 +17,7 @@
 }
 
 
-.body_form{
+body{
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -116,7 +116,7 @@ form input{
     color: var(--couleur-blanc);
     font-weight: bold;
     text-decoration: none;
-    border-radius: 0.7rem;
+    border-radius: 0.5rem;
     padding: 1.5rem;
 }
 
@@ -201,141 +201,11 @@ form input{
 }
 
 
-/* layout de base */
-.body_layout{
-    display: flex;
-    height: 100vh;
-
-}
-header{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    height: 120px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-section{
-    height: 100%;
-    width: 20%;
-}
-
-.recherche{
-    margin-left: 100px;
-}
 
 
-.searche{
-    padding: 15px;
-    width: 400px;
-    border-radius: 30px;
-    display: flex;
-    background-color: rgb(252, 252, 252);
-    color: black;
-    font-size: 17px;
-    border: 1px solid rgba(220, 220, 220, 0.671);
 
-}
 
-.bx{
-    font-size: 45px;
-}
 
-.dashbord{
-    border-right: 3px solid #ff7700;;
-    display: flex;
-    flex-direction: column;
-}
 
-.image_layout img{
-    width: 300px;
-    height: 180px;
-    margin-left: 20px;
-}
-.image_layout{
-    margin-left: 20px;
-}
 
-.variable_layout{
-    
-    display: flex;
-    width: 80%;
-    height: 100%;
-}
 
-.header_layout{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.promo{
-    color: #ff7700;
-    font-weight: 900;
-    border: 1px solid #ff7700;
-    width: 200px;
-    margin-left: 80px;
-    border-radius: 20px;
-    display: flex;
-    padding: 12px;
-    justify-content: center;
-    align-items: center;
-    background-color: #eec5a37e;
-}
-
-.barre_bottom{
-    margin-top: 50px;
-    width: 280px;
-    background-color: #cccccc;
-    height: 1px;
-    margin-left: 40px;
-}
-
-.menu_barre{
-    height: 100%;
-    width: 100%;
-    margin-top: 30px;
-
-}
-
-.menu{
-    display: flex;
-    font-size: 20px;
-    
-
-}
-
-.deconnexion{
-    margin-top: 100px;
-    margin-left: 60px;
-    border: 1px solid #ff7700;
-    background-color: #eec5a37e;
-    border-radius: 15px;
-    width: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    font-size: 18px;
-}
-.menu .bx{
-    margin-top: 15px;
-    margin-left: 40px;
-}
-
-.menu a{
-    margin-left: 50px;
-    margin-top: 25px;
-}
-
-a{
-    text-decoration: none;
-    color: #030303;
-}
-
-.menu:hover{
-    background-color: #e9c8ab;
-    border-left: 15px solid orangered;
-    border-radius: 10px;
-}
