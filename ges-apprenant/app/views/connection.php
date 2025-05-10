@@ -3,16 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>connection-ges-app</title>
+    <title>ges-apprenants login</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class = "connexion">
-    <div class = "formulaire">
-        <div>
-            <img src="public/assets/images/sonatel-image.jpeg" alt="">
+<body class = "body_form">
+    <div class="conteneur">
+        <img src="assets/images/logoApp.png" alt="logo site">
+        <div class="bienvenu">
+            <div class = "bienvenu-1">Bienvenu sur</div>
+            <div class = "ecole">Ecole du code Sonatel Academy</div>
+        </div>
+        <div class="se-connecter">
+            Se connecter
+        </div>
+        <div class="formulaire">
+            <form action="">
+                <div class="login">
+                    <label for="login">Login</label>
+                    <input type="text" placeholder = "Matricule ou email">
+                </div>
+                <div class="password">
+                    <label for="login">Mot de Passe</label>
+                    <input type="text" placeholder = "Mot de Passe">
+                </div>
+                <a href="#">Mot de passe oublié ?</a>
+            </form>
+        </div>
+
+        <div class="connexion">
+            <a href="#">Se connexion</a>
         </div>
     </div>
 </body>
 </html>
-
 
